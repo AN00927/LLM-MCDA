@@ -59,10 +59,9 @@ LLM-MCDA/
 │   ├── hybrid_results.csv
 │   ├── pure_prompting_results.csv
 │   ├── pure_prompting_results_diagnostics.json
-├── Paper & Bibliography/
-│   ├── Abstract.pdf
-│   ├── Bibliography.pdf
-│   └── Notebook.pdf
+├── Abstract.pdf
+├── Bibliography.pdf
+├── Notebook.pdf
 ├── Scenario Files/
 │   ├── ApplianceRAGScenariosGT.csv
 │   ├── ApplianceScenarios.csv
@@ -229,7 +228,7 @@ Ground truth scores are calculated using deterministic MAVT value functions with
 
 ---
 
-[Notebook](Notebook.pdf) | [Evaluation Metrics](Evaluation_Metrics_Derivations.pdf) | [How Budget Penalties Were applied](Budget_Penalties.pdf) | [Reference Ranges for Value Functions](Reference_Ranges_for_Value_Functions) | [Worked Calculator Examples](Calculator_Examples.pdf)
+[Notebook](Notebook.pdf) | [Evaluation Metrics](method/Evaluation_Metric_Derivations.pdf) | [How Budget Penalties Were applied](method/Budget_Penalties.pdf) | [Reference Ranges for Value Functions](method/Reference_Ranges_for_Value_Functions.pdf) | [Worked Calculator Examples](method/Calculator_Examples.pdf)
 
 ---
 
