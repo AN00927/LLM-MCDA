@@ -40,33 +40,42 @@ LLM-MCDA/
 │   ├── Hybrid.py
 │   ├── PurePrompting.py
 │   └── RAGDatabaseOptimized.py
+├── Ground Truth/
+│   ├── ground_truth_appliance.csv
+│   ├── ground_truth_hvac.csv
+│   └── ground_truth_shower.csv
 ├── Ground Truth Calculators/
 │   ├── ApplianceGroundTruthCalculator.py
 │   ├── HVACGroundTruthCalculator.py
 │   └── ShowerGroundTruthCalculator.py
 ├── Miscellaneous Files/
+│   ├── BuildRAG.py
 │   └── CalculateMetrics.py
 ├── Output Files/
-│   ├── ground_truth_appliance.csv
+│   ├── COMPREHENSIVE METRIC SUMMARY.csv
+│   ├── RAGDiagnostics.json
+│   ├── RAGResults.csv
 │   ├── hybrid_diagnostics.json
 │   ├── hybrid_results.csv
-│   ├── metrics_summary.csv
 │   ├── pure_prompting_results.csv
 │   ├── pure_prompting_results_diagnostics.json
-│   ├── RAGDiagnostics.json
-│   └── RAGResults.csv
-├── Scenario Files + Ground Truth/
+├── Abstract.pdf
+├── Bibliography.pdf
+├── Notebook.pdf
+├── Scenario Files/
 │   ├── ApplianceRAGScenariosGT.csv
 │   ├── ApplianceScenarios.csv
-│   ├── ground_truth_hvac.csv
-│   ├── ground_truth_shower.csv
 │   ├── HVACRagScenarios.csv
 │   ├── HVACScenarios.csv
+│   ├── MCDA Files Consolidated.xlsx
 │   ├── ShowerRAGScenarios.csv
 │   ├── ShowerScenarios.csv
 │   └── TestScenarios.csv
-├── BuildRAG.py
-├── MCDA Files Consolidated.xlsx
+├── method/
+│   ├── Budget_Penalties.pdf
+│   ├── Calculator_Examples.pdf
+│   ├── Evaluation_Metric_Derivations.pdf
+│   └── Reference_Ranges_for_Value_Functions.pdf
 ├── README.md
 └── requirements.txt
 ```
@@ -219,7 +228,7 @@ Ground truth scores are calculated using deterministic MAVT value functions with
 
 ---
 
-[Notebook](Notebook.pdf) | [Reference Materials](Notebook_Appendix.pdf)
+[Notebook](Notebook.pdf) | [Evaluation Metrics](method/Evaluation_Metric_Derivations.pdf) | [How Budget Penalties Were applied](method/Budget_Penalties.pdf) | [Reference Ranges for Value Functions](method/Reference_Ranges_for_Value_Functions.pdf) | [Worked Calculator Examples](method/Calculator_Examples.pdf)
 
 ---
 
